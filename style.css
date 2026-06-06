@@ -1,15 +1,37 @@
 body {
-    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Arial;
-    background-color: #dff6ff;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
 }
 
-input, button {
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+input {
     padding: 10px;
-    margin: 5px;
+    width: 80%;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
 
 #result {
     margin-top: 20px;
-    font-size: 18px;
 }
