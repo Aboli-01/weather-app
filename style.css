@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background-color: #dff6ff;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
